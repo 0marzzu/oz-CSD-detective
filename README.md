@@ -28,5 +28,6 @@ That's it! You've now installed and run Oz CSD Detective to check for CSD vulner
 ![image](https://github.com/0marzzu/oz-CSD-detective/assets/67198448/22abd3cc-f48b-4a11-9bf9-a7a411c8ddb7)
 
 
-
+### For further information on Client-side desync attacks:
+https://portswigger.net/web-security/request-smuggling/browser/client-side-desync
 
