@@ -16,7 +16,7 @@ pip install colorama
 
 3. Run the Tool:
 
-chmod +x oz_csd_detective.py
+'''chmod +x oz_csd_detective.py'''
 python oz_csd_detective.py -l urls.txt OR -u single URL 
 Replace urls.txt with the path to a file containing a list of URLs you want to check for CSD vulnerabilities.
 
