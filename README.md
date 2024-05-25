@@ -8,7 +8,7 @@
 ### install oz-CSD-detective
 
 1. Clone the Repository:
-git clone 
+```git clone https://github.com/0marzzu/oz-CSD-detective.git``` 
 
 ### 2. Install Dependencies:
 ```
