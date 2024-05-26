@@ -17,7 +17,7 @@ def print_boxed_message(message, color_code):
 
 def check_csd_vulnerability(url):
     """
-    Checks if a URL is vulnerable to Cached Server-side Data (CSD) vulnerability.
+    Checks if a URL is vulnerable to Client-side desync (CSD) vulnerability.
     """
     try:
         # Send a POST request with a content length of 30 to check the response time
@@ -35,11 +35,11 @@ def check_csd_vulnerability(url):
 
     except requests.exceptions.RequestException as e:
         message = f"No CSD vulnerability found at:\n{url}"
-        print_boxed_message(message, "31")  #
+        print_boxed_message(message, "31")  #aaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 def main():
     """
-    The main function that handles the command-line arguments and runs the checks.
+    SSSSSS
     """
     banner = r"""
       ________  __________     ___
@@ -49,7 +49,7 @@ def main():
   \_______  /_______ \   \  \   \/
           \/        \/    \__\
 """
-    print("\033[95m" + banner + "\033[0m")  # Purple color for the banner
+    print("\033[95m" + banner + "\033[0m")  # Purple color for the banner 
 
     powered_by = "Powered by @omarzzu - Omar Alzughaibi"
     print_boxed_message(powered_by, "95")  # Purple color code for "Powered by"
